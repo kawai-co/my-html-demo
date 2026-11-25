@@ -1,0 +1,6 @@
+let imgHtml = "";
+if(item.imgSrc){
+    imgHtml = `<img class="card-img" src="${item.imgSrc}" alt="${item.name}">`;
+}else{
+    imgHtml = `<img class="card-img" src="noimage.png" alt="暫無圖片">`;
+}
